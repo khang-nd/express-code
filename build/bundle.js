@@ -446,19 +446,19 @@ var app = (function () {
     			t9 = space();
     			div5 = element("div");
     			div4 = element("div");
-    			if (img.src !== (img_src_value = "/favicon.svg")) attr_dev(img, "src", img_src_value);
+    			if (img.src !== (img_src_value = "favicon.svg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "Logo");
     			add_location(img, file, 35, 8, 851);
     			attr_dev(figure, "class", "image p-2 is-128x128 is-hidden-touch");
     			add_location(figure, file, 34, 6, 788);
     			attr_dev(h1, "class", "title is-1");
-    			add_location(h1, file, 38, 8, 953);
-    			add_location(u0, file, 41, 10, 1080);
-    			add_location(u1, file, 43, 10, 1143);
+    			add_location(h1, file, 38, 8, 952);
+    			add_location(u0, file, 41, 10, 1079);
+    			add_location(u1, file, 43, 10, 1142);
     			attr_dev(p, "class", "subtitle");
-    			add_location(p, file, 39, 8, 1003);
+    			add_location(p, file, 39, 8, 1002);
     			attr_dev(div0, "class", "column is-5 pt-0");
-    			add_location(div0, file, 37, 6, 913);
+    			add_location(div0, file, 37, 6, 912);
     			attr_dev(div1, "class", "container columns svelte-zphw2a");
     			add_location(div1, file, 33, 4, 749);
     			attr_dev(div2, "class", "hero-body svelte-zphw2a");
@@ -466,13 +466,13 @@ var app = (function () {
     			attr_dev(section, "class", "hero is-primary");
     			add_location(section, file, 31, 0, 683);
     			attr_dev(div3, "class", "column is-6");
-    			add_location(div3, file, 50, 2, 1268);
+    			add_location(div3, file, 50, 2, 1267);
     			attr_dev(div4, "class", "sample");
-    			add_location(div4, file, 52, 4, 1330);
+    			add_location(div4, file, 52, 4, 1329);
     			attr_dev(div5, "class", "column is-5");
-    			add_location(div5, file, 51, 2, 1299);
+    			add_location(div5, file, 51, 2, 1298);
     			attr_dev(div6, "class", "columns is-gapless hero-snippet svelte-zphw2a");
-    			add_location(div6, file, 49, 0, 1219);
+    			add_location(div6, file, 49, 0, 1218);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1560,7 +1560,7 @@ var app = (function () {
     			t = text(t_value);
     			option.__value = option_value_value = /*theme*/ ctx[0];
     			option.value = option.__value;
-    			add_location(option, file$1, 27, 10, 829);
+    			add_location(option, file$1, 27, 10, 828);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, option, anchor);
@@ -1622,19 +1622,19 @@ var app = (function () {
     			option.selected = true;
     			option.__value = "Select Theme";
     			option.value = option.__value;
-    			add_location(option, file$1, 25, 8, 737);
+    			add_location(option, file$1, 25, 8, 736);
     			if (/*theme*/ ctx[0] === void 0) add_render_callback(() => /*select_change_handler*/ ctx[2].call(select));
-    			add_location(select, file$1, 24, 6, 700);
+    			add_location(select, file$1, 24, 6, 699);
     			attr_dev(span0, "class", "select is-fullwidth");
-    			add_location(span0, file$1, 23, 4, 658);
+    			add_location(span0, file$1, 23, 4, 657);
     			attr_dev(i, "class", "mdi mdi-format-paint mdi-24px");
-    			add_location(i, file$1, 32, 6, 968);
+    			add_location(i, file$1, 32, 6, 967);
     			attr_dev(span1, "class", "icon is-left");
-    			add_location(span1, file$1, 31, 4, 933);
+    			add_location(span1, file$1, 31, 4, 932);
     			attr_dev(p, "class", "control has-icons-left");
-    			add_location(p, file$1, 22, 2, 618);
+    			add_location(p, file$1, 22, 2, 617);
     			attr_dev(div, "class", "field");
-    			add_location(div, file$1, 21, 0, 595);
+    			add_location(div, file$1, 21, 0, 594);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1719,7 +1719,7 @@ var app = (function () {
     	const themes$1 = themes.map(theme => {
     		const elem = document.createElement("link");
     		elem.rel = "stylesheet";
-    		elem.href = "/vendors/codemirror/theme/" + theme;
+    		elem.href = "vendors/codemirror/theme/" + theme;
     		document.head.append(elem);
     		theme = theme.split(".");
     		theme.pop();
