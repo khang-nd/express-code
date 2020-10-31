@@ -1,4 +1,7 @@
-#editor + .CodeMirror {
-  width: 100%;
+.CodeMirror {
   box-shadow: 0 1px 5px #555;
+}
+
+.sample .CodeMirror {
+  box-shadow: none;
 }

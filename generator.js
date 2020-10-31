@@ -7,7 +7,7 @@ iPath = __dirname + "/src/snippets";
 const snippets = fs.readdirSync(iPath).map((file) => {
   const name = file.split(".");
   return {
-    language: name.pop(),
+    extension: name.pop(),
     author: name.join(),
     content: fs.readFileSync(`${iPath}/${file}`, "utf-8"),
   };
