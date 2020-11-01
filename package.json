@@ -1,8 +1,12 @@
 {
   "name": "express-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khang-nd/express-code.git"
+  },
   "scripts": {
-    "build": "rollup -c",
+    "build": "concurrently \"node generator.js\" \"rollup -c\"",
     "dev": "concurrently \"node generator.js\" \"rollup -c -w\"",
     "start": "sirv public",
     "data": "node generator.js",
@@ -25,7 +29,6 @@
     "local-storage": "^2.0.0",
     "sirv-cli": "^1.0.0"
   },
-  "description": "",
   "author": "khang-nd",
   "license": "MIT"
 }

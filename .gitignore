@@ -1,6 +1,4 @@
 /node_modules/
 /public/build/
-/src/data/*
-/src/Analytics.*
 
 .DS_Store
